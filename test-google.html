@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="test-google.css" type="text/css" rel="stylesheet">
+        <title>Google</title>
+    </head>
+    
+    <body>
+        <div class="grid">
+            <header>
+                <div class="nav flex-start">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="nav flex-end">
+                    <ul>
+                        <li><a href="#">Gmail</a></li>
+                        <li><a href="#">Images</a></li>
+                        <li><a href="#"><div id="waffle"></div></a></li>
+                        <li><a href="#" id="signin">Sign In</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <main>
+                <div class="content">
+                    <img src="google.png" id="main-logo">
+                    <form id="search-form" action="./search" method="POST">
+                        <div id="search-box">
+                            <input type="text" name="search-box">
+                            <img src="mic.png" id="mic">
+                        </div>
+                        <div id="search-buttons">
+                            <input type="submit" value="Google Search" name="search">
+                            <input type="submit" value="I'm Feeling Lucky" name="search">
+                        </div>
+                    </form>
+                    <p>Google offered in: <a class="languages">Français Deutsch Italiano Rumantsch</p>
+                </div>
+            </main>
+            <div class="nav flex-country">
+                <ul>
+                    <a>Switzerland</a>
+                </ul>
+            </div>
+            <footer>
+                <div class="nav flex-start">
+                    <ul>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+                <div class="nav flex-end">
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
